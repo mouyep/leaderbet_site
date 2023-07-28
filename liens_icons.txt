@@ -1,0 +1,12 @@
+icon google <a href="https://www.flaticon.com/free-icons/google" title="google icons">Google icons created by Freepik - Flaticon</a>
+icon facebook <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
+icon localisation <a href="https://www.flaticon.com/free-icons/maps" title="maps icons">Maps icons created by amoghdesign - Flaticon</a>
+icon youtube <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Freepik - Flaticon</a>
+icon contact-us <a href="https://www.flaticon.com/free-icons/contact" title="contact icons">Contact icons created by Canticons - Flaticon</a>*
+icon support <a href="https://www.flaticon.com/free-icons/contact-us" title="contact us icons">Contact us icons created by alimasykurm - Flaticon</a>
+icon whatsapp <a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Freepik - Flaticon</a>
+icon left arrow <a href="https://www.flaticon.com/free-icons/back" title="back icons">Back icons created by Roundicons - Flaticon</a>
+icon right arrow <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Roundicons - Flaticon</a>
+
+780 365
+nouveau token dop_v1_2eb643942f31341780d1919feae49a19b4c54cc922cd736da101700c349a6555
