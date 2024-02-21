@@ -1,0 +1,187 @@
+.triangle{
+
+    height:0px;
+    width:20px;
+    border-bottom: 20px solid rgba(1,1,1,0.3);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    cursor:pointer;
+    animation: blink_ 1s linear infinite;    
+    
+}
+
+.triangle_in{
+
+    height:0px;
+    width:20px;
+    border-bottom: 20px solid greenyellow;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    cursor:pointer;
+    animation: blink_in 1s linear infinite; 
+    
+}
+
+@keyframes rotate_triangle_down{
+
+    0%{transform: rotate(0deg); transform-origin: 50% 75%;}
+    50%{transform: rotate(-60deg); transform-origin: 50% 75%;}
+    70%{transform: rotate(-120deg); transform-origin: 50% 75%;}
+    100%{transform: rotate(-180deg); transform-origin: 50% 75%;}
+
+}
+
+@keyframes rotate_triangle_up{
+
+    0%{transform: rotate(180deg); transform-origin: 50% 75%;}
+    50%{transform: rotate(120deg); transform-origin: 50% 75%;}
+    70%{transform: rotate(60deg); transform-origin: 50% 75%;}
+    100%{transform: rotate(0deg); transform-origin: 50% 75%;}
+
+}
+
+@keyframes blink_{
+
+    0%{border-bottom-color:rgba(1,1,1,0.3);}
+    500%{border-bottom-color:rgba(1,1,1,0.4);}
+    70%{border-bottom-color:rgba(1,1,1,0.5);}
+    100%{border-bottom-color:rgba(1,1,1,0.6);}
+}
+
+@keyframes blink_in{
+
+    0%{border-bottom-color:rgba(181,230,29,0.3);}
+    500%{border-bottom-color:rgba(181,230,290.4);}
+    70%{border-bottom-color:rgba(181,230,29,0.5);}
+    100%{border-bottom-color:rgba(181,230,29,1);}
+}
+
+.rot_triangle_down{
+
+    animation-name: rotate_triangle_down;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay:0s;
+    animation-fill-mode: forwards;   
+}
+
+.rot_triangle_up{
+
+    animation-name: rotate_triangle_up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay:0s;
+    animation-fill-mode: backwards;
+   
+}
+
+@keyframes defil_infinite{
+
+    0%, 100%{margin-left: 100%;}
+    99.99%{margin-left: -100%; display:none;}
+    
+}
+.defil{
+
+    animation: linear defil_infinite 10s infinite;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    
+
+}
+
+.defil_zone{
+
+    overflow:hidden;
+    height:35px;
+}
+
+
+@media all and (max-device-width: 950px)
+{
+    
+    .header_img{
+
+        display: none;
+    }
+}
+
+table.table-bordered > tbody > tr > td{
+    border-left:1px solid orange;
+    border-right:1px solid orange;
+    border-top:1px solid greenyellow;
+    border-bottom:1px solid greenyellow;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+table.table-bordered > thead > tr > th{
+    border-left:2px solid silver;
+    border-right:2px solid silver;
+    border-top:2px solid greenyellow;
+    border-bottom:2px solid greenyellow;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 10px 10px 10px 10px;
+    
+}
+
+table.table-bordered > thead > tr > th:first-of-type{
+    border-left:2px solid greenyellow;
+   
+    
+}
+table.table-bordered > thead > tr > th:last-of-type{
+    border-right:2px solid greenyellow;
+    
+}
+
+.detect_prono{
+
+    background-color: yellow;
+}
+
+
+table.options > tbody > tr{
+
+    
+    border:solid black;
+    background-color: yellow;
+}
+
+table.options > thead > tr > th{
+
+    
+    border:solid black;
+    display:none;
+}
+
+table.options tbody tr td{
+
+    border:solid black;
+    background-color: yellow;
+    
+}
+
+table.options{
+
+    border-collapse: separate;
+    display:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
